@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPTravelers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><span class="jp">JP</span>Travelers</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Travels</a>
+            <a href="#">Buy Packs</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="./image-2.jpg" alt="Banner Image">
+        </section>
+        <h2>Choose your <span class="highlight">best travel</span> option!</h2>
+        <section class="options">
+            <h3>More information about your options:</h3>
+            <div class="cities">
+                <div class="city">
+                    <img src="./image-5.jpg" alt="Osaka">
+                    <h4>Osaka</h4>
+                </div>
+                <div class="city">
+                    <img src="./image-3.jpg" alt="Kyoto">
+                    <h4>Kyoto</h4>
+                </div>
+                <div class="city">
+                    <img src="./image-4.jpg" alt="Tokyo">
+                    <h4>Tokyo</h4>
+                </div>
+            </div>
+        </section>
+        <section class="info-and-pricing">
+            <div class="info">
+                <h3>We leave you more information about what the packages include.</h3>
+                <ul>
+                    <li>Advice on hotels and how to include them in the pack</li>
+                    <li>Direct contact throughout the trip with our staff</li>
+                    <li>We include a discount for the next package you compress</li>
+                </ul>
+            </div>
+            <div class="pricing">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Price depending on the city:</th>
+                        </tr>
+                        <tr>
+                            <th>Price (USD) full</th>
+                            <th>Price (USD) per month (12)</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>3706</td>
+                            <td>310</td>
+                            <td>Osaka</td>
+                        </tr>
+                        <tr>
+                            <td>4050</td>
+                            <td>339</td>
+                            <td>Kyoto</td>
+                        </tr>
+                        <tr>
+                            <td>3900</td>
+                            <td>327</td>
+                            <td>Tokyo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>MindHub Colbort N</p>
+        <form action="../show_data.html" method="get">
+            <label for="subscribe-yes">Have you already traveled with us?</label>
+            <label for="subscribe-yes">Yes</label>
+            <input type="radio" id="subscribe-yes" name="subscribe" value="yes">
+            <label for="subscribe-no">No</label>
+            <input type="radio" id="subscribe-no" name="subscribe" value="no">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Send</button>
+        </form>
+        <p class="email">jptravelers@gmail.com</p>
+    </footer>
+</body>
+</html>
